@@ -6,13 +6,40 @@
     <title>SkyLiner</title>
 </head>
 <body>
-    <iframe src="stationSVG.svg" width="1280" height="720" frameborder="0">
+    <iframe id = "svgFrame" src="stationSVG.svg" width="1280" height="720" frameborder="0">
         Browser Not Support SVG File
     </iframe>
     <script>
 
         /** UI */
+        const mainFrame = document.querySelector("#svgFrame");//iframe Element를 불러옴
+        mainFrame.addEventListener("load", ()=>{//iframe 로딩시 내부 SVG에 대해 기능 매핑
+            const svgEle = mainFrame.contentDocument;//iframe내 svg 불러옴
+            const nodeList = svgEle.querySelectorAll("[id]");//속성에 id 있는 Node를 전부 List화
+            //console.log(nodeList);
+            for(let i of nodeList){
+                if(i["id"][0] == "M"){//id 속성값이 M으로 시작하는 Node만 순회
+                    //console.log(i["id"]);
+                    let stationNode = i;
+                    i.addEventListener("mouseover", ()=>{
+                        i.firstChild.style.fill = "#C1FC53";
+                    });
+                    i.addEventListener("mouseout", () => {
+                        i.firstChild.style.fill = "#EBEBEB";
+                    });
+                    i.addEventListener("mousedown", () => {
+                        i.firstChild.style.fill = "#FCFC53";
+                        //console.log(i["id"]);
+                        /** Click시 event */
 
+                    });
+                    i.addEventListener("mouseup", () => {
+                        i.firstChild.style.fill = "#C1FC53";
+                    });
+                }
+            }
+
+        })
 
         /** APi Request */
 
