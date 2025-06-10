@@ -1,0 +1,49 @@
+{
+    "coord": {
+      "lon": 139.6485,
+      "lat": 35.6979
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 296.86,
+      "feels_like": 296.98,
+      "temp_min": 295.69,
+      "temp_max": 297.38,
+      "pressure": 1011,
+      "humidity": 65,
+      "sea_level": 1011,
+      "grnd_level": 1008
+    },
+    "visibility": 10000,
+    "wind": {
+      "speed": 6.49,
+      "deg": 183,
+      "gust": 8.65
+    },
+    "rain": {
+      "1h": 0.63
+    },
+    "clouds": {
+      "all": 100
+    },
+    "dt": 1749378968,
+    "sys": {
+      "type": 2,
+      "id": 2044139,
+      "country": "JP",
+      "sunrise": 1749324327,
+      "sunset": 1749376537
+    },
+    "timezone": 32400,
+    "id": 1865090,
+    "name": "Asagaya-minami",
+    "cod": 200
+  }

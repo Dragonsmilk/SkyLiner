@@ -1,0 +1,944 @@
+[
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C470D",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.692452,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "新宿",
+      "geo:long": 139.700548,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Shinjuku",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M08",
+      "odpt:stationTitle": {
+        "en": "Shinjuku",
+        "ja": "新宿",
+        "ko": "신주쿠",
+        "ja-Hrkt": "しんじゅく",
+        "zh-Hans": "新宿",
+        "zh-Hant": "新宿"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Shinjuku"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Shinjuku.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Shinjuku.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Shinjuku.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Shinjuku.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:JR-East.ChuoRapid",
+        "odpt.Railway:JR-East.ChuoSobuLocal",
+        "odpt.Railway:JR-East.SaikyoKawagoe",
+        "odpt.Railway:JR-East.ShonanShinjuku",
+        "odpt.Railway:JR-East.Yamanote",
+        "odpt.Railway:Keio.Keio",
+        "odpt.Railway:Keio.KeioNew",
+        "odpt.Railway:Odakyu.Odawara",
+        "odpt.Railway:Seibu.Shinjuku",
+        "odpt.Railway:Toei.Oedo"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:JR-East.ChuoRapid.Shinjuku",
+        "odpt.Station:JR-East.ChuoSobuLocal.Shinjuku",
+        "odpt.Station:JR-East.SaikyoKawagoe.Shinjuku",
+        "odpt.Station:JR-East.ShonanShinjuku.Shinjuku",
+        "odpt.Station:JR-East.Yamanote.Shinjuku",
+        "odpt.Station:Keio.Keio.Shinjuku",
+        "odpt.Station:Keio.KeioNew.Shinjuku",
+        "odpt.Station:Odakyu.Odawara.Shinjuku",
+        "odpt.Station:Seibu.Shinjuku.SeibuShinjuku",
+        "odpt.Station:Toei.Oedo.ShinjukuNishiguchi"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4757",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.7172,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "茗荷谷",
+      "geo:long": 139.736895,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Myogadani",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M23",
+      "odpt:stationTitle": {
+        "en": "Myogadani",
+        "ja": "茗荷谷",
+        "ko": "묘가다니",
+        "ja-Hrkt": "みょうがだに",
+        "zh-Hans": "茗荷谷",
+        "zh-Hant": "茗荷谷"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Myogadani"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Myogadani.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Myogadani.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Myogadani.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Myogadani.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46BB",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.676845,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "赤坂見附",
+      "geo:long": 139.737347,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.AkasakaMitsuke",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M13",
+      "odpt:stationTitle": {
+        "en": "Akasaka-mitsuke",
+        "ja": "赤坂見附",
+        "ko": "아카사카미쓰케",
+        "ja-Hrkt": "あかさかみつけ",
+        "zh-Hans": "赤坂见附",
+        "zh-Hant": "赤坂見附"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.AkasakaMitsuke"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.AkasakaMitsuke.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.AkasakaMitsuke.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.AkasakaMitsuke.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.AkasakaMitsuke.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Ginza",
+        "odpt.Railway:TokyoMetro.Hanzomon",
+        "odpt.Railway:TokyoMetro.Namboku",
+        "odpt.Railway:TokyoMetro.Yurakucho"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Ginza.AkasakaMitsuke",
+        "odpt.Station:TokyoMetro.Hanzomon.Nagatacho",
+        "odpt.Station:TokyoMetro.Namboku.Nagatacho",
+        "odpt.Station:TokyoMetro.Yurakucho.Nagatacho"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46BF",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.69487,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "淡路町",
+      "geo:long": 139.767455,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Awajicho",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M19",
+      "odpt:stationTitle": {
+        "en": "Awajicho",
+        "ja": "淡路町",
+        "ko": "아와지초",
+        "ja-Hrkt": "あわじちょう",
+        "zh-Hans": "淡路町",
+        "zh-Hant": "淡路町"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Awajicho"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Awajicho.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Awajicho.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Awajicho.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Awajicho.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Chiyoda",
+        "odpt.Railway:Toei.Shinjuku"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Chiyoda.ShinOchanomizu",
+        "odpt.Station:Toei.Shinjuku.Ogawamachi"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46F2",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.673159,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "銀座",
+      "geo:long": 139.763876,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Ginza",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M16",
+      "odpt:stationTitle": {
+        "en": "Ginza",
+        "ja": "銀座",
+        "ko": "긴자",
+        "ja-Hrkt": "ぎんざ",
+        "zh-Hans": "银座",
+        "zh-Hant": "銀座"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Ginza"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ginza.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ginza.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ginza.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ginza.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Ginza",
+        "odpt.Railway:TokyoMetro.Hibiya",
+        "odpt.Railway:TokyoMetro.Yurakucho"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Ginza.Ginza",
+        "odpt.Station:TokyoMetro.Hibiya.Ginza",
+        "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4745",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.697965,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "東高円寺",
+      "geo:long": 139.658295,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.HigashiKoenji",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M04",
+      "odpt:stationTitle": {
+        "en": "Higashi-koenji",
+        "ja": "東高円寺",
+        "ko": "히가시코엔지",
+        "ja-Hrkt": "ひがしこうえんじ",
+        "zh-Hans": "东高圆寺",
+        "zh-Hant": "東高圓寺"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.HigashiKoenji"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HigashiKoenji.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HigashiKoenji.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HigashiKoenji.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HigashiKoenji.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C474D",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.706726,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "本郷三丁目",
+      "geo:long": 139.760154,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.HongoSanchome",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M21",
+      "odpt:stationTitle": {
+        "en": "Hongo-sanchome",
+        "ja": "本郷三丁目",
+        "ko": "혼고산초메",
+        "ja-Hrkt": "ほんごうさんちょうめ",
+        "zh-Hans": "本乡三丁目",
+        "zh-Hant": "本鄉三丁目"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.HongoSanchome"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HongoSanchome.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HongoSanchome.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HongoSanchome.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.HongoSanchome.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:Toei.Oedo"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:Toei.Oedo.HongoSanchome"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46C3",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.730345,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "池袋",
+      "geo:long": 139.71115,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Ikebukuro",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M25",
+      "odpt:stationTitle": {
+        "en": "Ikebukuro",
+        "ja": "池袋",
+        "ko": "이케부쿠로",
+        "ja-Hrkt": "いけぶくろ",
+        "zh-Hans": "池袋",
+        "zh-Hant": "池袋"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Ikebukuro"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ikebukuro.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ikebukuro.TokyoMetro.Ogikubo.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Fukutoshin",
+        "odpt.Railway:TokyoMetro.Yurakucho",
+        "odpt.Railway:JR-East.SaikyoKawagoe",
+        "odpt.Railway:JR-East.ShonanShinjuku",
+        "odpt.Railway:JR-East.Yamanote",
+        "odpt.Railway:Seibu.Ikebukuro",
+        "odpt.Railway:Tobu.Tojo"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Fukutoshin.Ikebukuro",
+        "odpt.Station:TokyoMetro.Yurakucho.Ikebukuro",
+        "odpt.Station:JR-East.SaikyoKawagoe.Ikebukuro",
+        "odpt.Station:JR-East.ShonanShinjuku.Ikebukuro",
+        "odpt.Station:JR-East.Yamanote.Ikebukuro",
+        "odpt.Station:Seibu.Ikebukuro.Ikebukuro",
+        "odpt.Station:Tobu.Tojo.Ikebukuro"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46E0",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.674235,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "霞ケ関",
+      "geo:long": 139.75268,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Kasumigaseki",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M15",
+      "odpt:stationTitle": {
+        "en": "Kasumigaseki",
+        "ja": "霞ケ関",
+        "ko": "가스미가세키",
+        "ja-Hrkt": "かすみがせき",
+        "zh-Hans": "霞关",
+        "zh-Hant": "霞關"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Kasumigaseki"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Kasumigaseki.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Kasumigaseki.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Kasumigaseki.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Kasumigaseki.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Chiyoda",
+        "odpt.Railway:TokyoMetro.Hibiya"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Chiyoda.Kasumigaseki",
+        "odpt.Station:TokyoMetro.Hibiya.Kasumigaseki"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46FE",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.674926,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "国会議事堂前",
+      "geo:long": 139.745473,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.KokkaiGijidomae",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M14",
+      "odpt:stationTitle": {
+        "en": "Kokkai-gijidomae",
+        "ja": "国会議事堂前",
+        "ko": "곳카이기지도마에",
+        "ja-Hrkt": "こっかいぎじどうまえ",
+        "zh-Hans": "国会议事堂前",
+        "zh-Hant": "國會議事堂前"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.KokkaiGijidomae"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.KokkaiGijidomae.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.KokkaiGijidomae.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.KokkaiGijidomae.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.KokkaiGijidomae.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Chiyoda",
+        "odpt.Railway:TokyoMetro.Ginza",
+        "odpt.Railway:TokyoMetro.Namboku"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Chiyoda.KokkaiGijidomae",
+        "odpt.Station:TokyoMetro.Ginza.TameikeSanno",
+        "odpt.Station:TokyoMetro.Namboku.TameikeSanno"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46F9",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.707307,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "後楽園",
+      "geo:long": 139.750861,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Korakuen",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M22",
+      "odpt:stationTitle": {
+        "en": "Korakuen",
+        "ja": "後楽園",
+        "ko": "고라쿠엔",
+        "ja-Hrkt": "こうらくえん",
+        "zh-Hans": "後乐园",
+        "zh-Hant": "後樂園"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Korakuen"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Korakuen.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Korakuen.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Korakuen.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Korakuen.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Namboku",
+        "odpt.Railway:Toei.Mita",
+        "odpt.Railway:Toei.Oedo"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Namboku.Korakuen",
+        "odpt.Station:Toei.Mita.Kasuga",
+        "odpt.Station:Toei.Oedo.Kasuga"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4752",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.699455,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "南阿佐ケ谷",
+      "geo:long": 139.635575,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.MinamiAsagaya",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M02",
+      "odpt:stationTitle": {
+        "en": "Minami-asagaya",
+        "ja": "南阿佐ケ谷",
+        "ko": "미나미아사가야",
+        "ja-Hrkt": "みなみあさがや",
+        "zh-Hans": "南阿佐谷",
+        "zh-Hant": "南阿佐谷"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.MinamiAsagaya"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.MinamiAsagaya.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.MinamiAsagaya.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.MinamiAsagaya.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.MinamiAsagaya.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4730",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.697085,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "中野坂上",
+      "geo:long": 139.682205,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.NakanoSakaue",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M06",
+      "odpt:stationTitle": {
+        "en": "Nakano-sakaue",
+        "ja": "中野坂上",
+        "ko": "나카노사카우에",
+        "ja-Hrkt": "なかのさかうえ",
+        "zh-Hans": "中野坂上",
+        "zh-Hant": "中野坂上"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.NakanoSakaue"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NakanoSakaue.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NakanoSakaue.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NakanoSakaue.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NakanoSakaue.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.MarunouchiBranch",
+        "odpt.Railway:Toei.Oedo"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.MarunouchiBranch.NakanoSakaue",
+        "odpt.Station:Toei.Oedo.NakanoSakaue"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4736",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.694515,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "西新宿",
+      "geo:long": 139.69256,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.NishiShinjuku",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M07",
+      "odpt:stationTitle": {
+        "en": "Nishi-shinjuku",
+        "ja": "西新宿",
+        "ko": "니시신주쿠",
+        "ja-Hrkt": "にししんじゅく",
+        "zh-Hans": "西新宿",
+        "zh-Hant": "西新宿"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.NishiShinjuku"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NishiShinjuku.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NishiShinjuku.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NishiShinjuku.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.NishiShinjuku.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46D9",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.70043,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "御茶ノ水",
+      "geo:long": 139.764405,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Ochanomizu",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M20",
+      "odpt:stationTitle": {
+        "en": "Ochanomizu",
+        "ja": "御茶ノ水",
+        "ko": "오차노미즈",
+        "ja-Hrkt": "おちゃのみず",
+        "zh-Hans": "御茶之水",
+        "zh-Hant": "御茶之水"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Ochanomizu"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ochanomizu.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ochanomizu.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ochanomizu.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ochanomizu.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:JR-East.ChuoRapid",
+        "odpt.Railway:JR-East.ChuoSobuLocal"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:JR-East.ChuoRapid.Ochanomizu",
+        "odpt.Station:JR-East.ChuoSobuLocal.Ochanomizu"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46D6",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.704175,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "荻窪",
+      "geo:long": 139.61976,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Ogikubo",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M01",
+      "odpt:stationTitle": {
+        "en": "Ogikubo",
+        "ja": "荻窪",
+        "ko": "오기쿠보",
+        "ja-Hrkt": "おぎくぼ",
+        "zh-Hans": "荻洼",
+        "zh-Hant": "荻窪"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Ogikubo"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ogikubo.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Ogikubo.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:JR-East.ChuoRapid",
+        "odpt.Railway:JR-East.ChuoSobuLocal"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:JR-East.ChuoRapid.Ogikubo",
+        "odpt.Station:JR-East.ChuoSobuLocal.Ogikubo"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C46D2",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.686875,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "大手町",
+      "geo:long": 139.766203,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Otemachi",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M18",
+      "odpt:stationTitle": {
+        "en": "Otemachi",
+        "ja": "大手町",
+        "ko": "오테마치",
+        "ja-Hrkt": "おおてまち",
+        "zh-Hans": "大手町",
+        "zh-Hant": "大手町"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Otemachi"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Otemachi.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Otemachi.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Otemachi.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Otemachi.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Chiyoda",
+        "odpt.Railway:TokyoMetro.Hanzomon",
+        "odpt.Railway:TokyoMetro.Tozai",
+        "odpt.Railway:Toei.Mita"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Chiyoda.Otemachi",
+        "odpt.Station:TokyoMetro.Hanzomon.Otemachi",
+        "odpt.Station:TokyoMetro.Tozai.Otemachi",
+        "odpt.Station:Toei.Mita.Otemachi"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C470C",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.69786,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "新高円寺",
+      "geo:long": 139.64851,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.ShinKoenji",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M03",
+      "odpt:stationTitle": {
+        "en": "Shin-koenji",
+        "ja": "新高円寺",
+        "ko": "신코엔지",
+        "ja-Hrkt": "しんこうえんじ",
+        "zh-Hans": "新高圆寺",
+        "zh-Hant": "新高圓寺"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.ShinKoenji"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinKoenji.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinKoenji.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinKoenji.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinKoenji.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4712",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.697475,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "新中野",
+      "geo:long": 139.66951,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.ShinNakano",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M05",
+      "odpt:stationTitle": {
+        "en": "Shin-nakano",
+        "ja": "新中野",
+        "ko": "신나카노",
+        "ja-Hrkt": "しんなかの",
+        "zh-Hans": "新中野",
+        "zh-Hant": "新中野"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.ShinNakano"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinNakano.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinNakano.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinNakano.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinNakano.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4709",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.72613,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "新大塚",
+      "geo:long": 139.729354,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.ShinOtsuka",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M24",
+      "odpt:stationTitle": {
+        "en": "Shin-otsuka",
+        "ja": "新大塚",
+        "ko": "신오쓰카",
+        "ja-Hrkt": "しんおおつか",
+        "zh-Hans": "新大冢",
+        "zh-Hant": "新大塚"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.ShinOtsuka"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinOtsuka.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinOtsuka.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinOtsuka.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinOtsuka.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C470E",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.688525,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "新宿御苑前",
+      "geo:long": 139.710915,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.ShinjukuGyoemmae",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M10",
+      "odpt:stationTitle": {
+        "en": "Shinjuku-gyoemmae",
+        "ja": "新宿御苑前",
+        "ko": "신주쿠교엔마에",
+        "ja-Hrkt": "しんじゅくぎょえんまえ",
+        "zh-Hans": "新宿御苑前",
+        "zh-Hant": "新宿御苑前"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.ShinjukuGyoemmae"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuGyoemmae.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuGyoemmae.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuGyoemmae.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuGyoemmae.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C470F",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.69118,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "新宿三丁目",
+      "geo:long": 139.70421,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.ShinjukuSanchome",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M09",
+      "odpt:stationTitle": {
+        "en": "Shinjuku-sanchome",
+        "ja": "新宿三丁目",
+        "ko": "신주쿠산초메",
+        "ja-Hrkt": "しんじゅくさんちょうめ",
+        "zh-Hans": "新宿三丁目",
+        "zh-Hant": "新宿三丁目"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.ShinjukuSanchome"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuSanchome.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuSanchome.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuSanchome.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.ShinjukuSanchome.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Fukutoshin",
+        "odpt.Railway:Toei.Shinjuku"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Fukutoshin.ShinjukuSanchome",
+        "odpt.Station:Toei.Shinjuku.ShinjukuSanchome"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4726",
+      "@type": "odpt:Station",
+      "dc:date": "2024-03-27T09:00:00+09:00",
+      "geo:lat": 35.681935,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "東京",
+      "geo:long": 139.7648,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Tokyo",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M17",
+      "odpt:stationTitle": {
+        "en": "Tokyo",
+        "ja": "東京",
+        "ko": "도쿄",
+        "ja-Hrkt": "とうきょう",
+        "zh-Hans": "东京",
+        "zh-Hant": "東京"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Tokyo"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Tokyo.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Tokyo.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Tokyo.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Tokyo.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:JR-Central.TokaidoShinkansen",
+        "odpt.Railway:JR-East.AkitaShinkansen",
+        "odpt.Railway:JR-East.ChuoRapid",
+        "odpt.Railway:JR-East.HokurikuShinkansen",
+        "odpt.Railway:JR-East.JobanRapid",
+        "odpt.Railway:JR-East.JoetsuShinkansen",
+        "odpt.Railway:JR-East.KeihinTohokuNegishi",
+        "odpt.Railway:JR-East.Keiyo",
+        "odpt.Railway:JR-East.SobuRapid",
+        "odpt.Railway:JR-East.Takasaki",
+        "odpt.Railway:JR-East.TohokuShinkansen",
+        "odpt.Railway:JR-East.Tokaido",
+        "odpt.Railway:JR-East.Utsunomiya",
+        "odpt.Railway:JR-East.YamagataShinkansen",
+        "odpt.Railway:JR-East.Yamanote",
+        "odpt.Railway:JR-East.Yokosuka"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:JR-Central.TokaidoShinkansen.Tokyo",
+        "odpt.Station:JR-East.AkitaShinkansen.Tokyo",
+        "odpt.Station:JR-East.ChuoRapid.Tokyo",
+        "odpt.Station:JR-East.HokurikuShinkansen.Tokyo",
+        "odpt.Station:JR-East.JobanRapid.Tokyo",
+        "odpt.Station:JR-East.JoetsuShinkansen.Tokyo",
+        "odpt.Station:JR-East.KeihinTohokuNegishi.Tokyo",
+        "odpt.Station:JR-East.Keiyo.Tokyo",
+        "odpt.Station:JR-East.SobuRapid.Tokyo",
+        "odpt.Station:JR-East.Takasaki.Tokyo",
+        "odpt.Station:JR-East.TohokuShinkansen.Tokyo",
+        "odpt.Station:JR-East.Tokaido.Tokyo",
+        "odpt.Station:JR-East.Utsunomiya.Tokyo",
+        "odpt.Station:JR-East.YamagataShinkansen.Tokyo",
+        "odpt.Station:JR-East.Yamanote.Tokyo",
+        "odpt.Station:JR-East.Yokosuka.Tokyo"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C4761",
+      "@type": "odpt:Station",
+      "dc:date": "2022-03-15T11:00:00+09:00",
+      "geo:lat": 35.687835,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "四谷三丁目",
+      "geo:long": 139.719325,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.YotsuyaSanchome",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M11",
+      "odpt:stationTitle": {
+        "en": "Yotsuya-sanchome",
+        "ja": "四谷三丁目",
+        "ko": "요쓰야산초메",
+        "ja-Hrkt": "よつやさんちょうめ",
+        "zh-Hans": "四谷三丁目",
+        "zh-Hant": "四谷三丁目"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.YotsuyaSanchome"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.YotsuyaSanchome.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.YotsuyaSanchome.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.YotsuyaSanchome.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.YotsuyaSanchome.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ]
+    },
+    {
+      "@id": "urn:ucode:_00001C000000000000010000030C475F",
+      "@type": "odpt:Station",
+      "dc:date": "2024-06-27T08:00:00+09:00",
+      "geo:lat": 35.684197,
+      "@context": "http://vocab.odpt.org/context_odpt_Station.jsonld",
+      "dc:title": "四ツ谷",
+      "geo:long": 139.730047,
+      "owl:sameAs": "odpt.Station:TokyoMetro.Marunouchi.Yotsuya",
+      "odpt:railway": "odpt.Railway:TokyoMetro.Marunouchi",
+      "odpt:operator": "odpt.Operator:TokyoMetro",
+      "odpt:stationCode": "M12",
+      "odpt:stationTitle": {
+        "en": "Yotsuya",
+        "ja": "四ツ谷",
+        "ko": "요쓰야",
+        "ja-Hrkt": "よつや",
+        "zh-Hans": "四谷",
+        "zh-Hant": "四谷"
+      },
+      "odpt:passengerSurvey": [
+        "odpt.PassengerSurvey:TokyoMetro.Yotsuya"
+      ],
+      "odpt:stationTimetable": [
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Yotsuya.TokyoMetro.Ogikubo.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Yotsuya.TokyoMetro.Ogikubo.SaturdayHoliday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Yotsuya.TokyoMetro.Ikebukuro.Weekday",
+        "odpt.StationTimetable:TokyoMetro.Marunouchi.Yotsuya.TokyoMetro.Ikebukuro.SaturdayHoliday"
+      ],
+      "odpt:connectingRailway": [
+        "odpt.Railway:TokyoMetro.Namboku",
+        "odpt.Railway:JR-East.ChuoRapid",
+        "odpt.Railway:JR-East.ChuoSobuLocal"
+      ],
+      "odpt:connectingStation": [
+        "odpt.Station:TokyoMetro.Namboku.Yotsuya",
+        "odpt.Station:JR-East.ChuoRapid.Yotsuya",
+        "odpt.Station:JR-East.ChuoSobuLocal.Yotsuya"
+      ]
+    }
+  ]
