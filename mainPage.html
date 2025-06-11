@@ -20,7 +20,9 @@
         </tr>
     </table>
     <script>
-
+        const stationInfoApiLocation = "testSet_marunouchi_info.json";
+        const stationTimeApiLocation = "testSet_marunouchi_time.json";
+        const weatherApiLocation = "testSet_marunouchi_weather.json";
         /** UI */
         const mainFrame = document.querySelector("#svgFrame");//iframe Element를 불러옴
         let lineData;
@@ -136,7 +138,23 @@
 
 
         /** APi Request */
-
+        /**function stationInfoRequester() {
+                const xhr = new XMLHttpRequest();
+                xhr.open("GET", stationInfoApiLocation);
+                xhr.onload = () => {
+                    if (xhr.status === 200) {
+                        resolve(JSON.parse(xhr.responseText));
+                    } else if (xhr.status === 404) {
+                        reject(new Error("Resource not found (404)"));
+                    } else if (xhr.status === 403) {
+                        reject(new Error("Access forbidden (403)"));
+                    } else {
+                        reject(new Error(`Error ${xhr.status}: ${xhr.statusText}`));
+                    }
+                };
+                xhr.onerror = () => reject(new Error("Network error"));
+                xhr.send();
+        }*/
 
         /** Data */
 
