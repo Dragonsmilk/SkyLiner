@@ -26,13 +26,20 @@
         let lineData;
         let flangPreSet;
         let flangCurrentSet;
-
+        let domReady = false;
         
+
+        if(document.readyState === "loading"){
+            document.addEventListener("DOMContentLoaded", handleDOMLoaded);
+        }else{
+            handleDOMLoaded;
+        }
 
         mainFrame.addEventListener("load", ()=>{//iframe 로딩시 내부 SVG에 대해 기능 매핑
             const svgEle = mainFrame.contentDocument;//iframe내 svg 불러옴
             const nodeList = svgEle.querySelectorAll("[id]");//속성에 id 있는 Node를 전부 List화
-            SelBoxMap(flangPreSet);
+            
+            //SelBoxMap(flangPreSet);
             //console.log(nodeList);
             //baseStationNameInital(nodeList, lineData);
             for(let i of nodeList){
@@ -58,6 +65,12 @@
             }
 
         })
+
+        var handleDOMLoaded = function() {
+            domReady = true;
+            initReady();
+        }
+
 
         var SelBoxMap = function(list, type = "jp"){
             let langSel = document.querySelector("#langSelection");
@@ -114,6 +127,13 @@
                 }
             }
         }
+
+
+
+
+
+
+
 
         /** APi Request */
 
