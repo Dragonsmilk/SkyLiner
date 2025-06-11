@@ -17,77 +17,23 @@
 
 
         /** APi Request */
-        var stationInfoRequester = function(){
-            const p = new XMLHttpRequest();
-            let reqData;
-            p.open("GET", stationInfoApiLocation);
-            p.send();
-            p.onreadystatechange = function() {
-                if(p.readyState !== XMLHttpRequest.DONE){
-                    return;
-                }
-                if(p.status === 200){//정상 수신 완료시
-                    reqData = JSON.parse(p.responseText);
-                } else if (p.status === 404){
-                    alert("리소스를 찾을 수 없음 (404)");
-                    console.log("리소스를 찾을 수 없음 (404)");
-                } else if (p.status === 403) {
-                    alert("접근 거부됨 (403)");
-                    console.log("접근 거부됨 (403)");
-                } else{
-                    console.log(`[${p.status}] : ${p.statusText}`);
-                }
-            }
-            return reqData;
-        }
-
-        var stationTimeRequester = function () {
-                const p = new XMLHttpRequest();
-                let reqData;
-                p.open("GET", stationTimeApiLocation);
-                p.send();
-                p.onreadystatechange = function () {
-                    if (p.readyState !== XMLHttpRequest.DONE) {
-                        return;
-                    }
-                    if (p.status === 200) {//정상 수신 완료시
-                        reqData = JSON.parse(p.responseText);
-                    } else if (p.status === 404) {
-                        alert("리소스를 찾을 수 없음 (404)");
-                        console.log("리소스를 찾을 수 없음 (404)");
-                    } else if (p.status === 403) {
-                        alert("접근 거부됨 (403)");
-                        console.log("접근 거부됨 (403)");
+        /**function stationInfoRequester() {
+                const xhr = new XMLHttpRequest();
+                xhr.open("GET", stationInfoApiLocation);
+                xhr.onload = () => {
+                    if (xhr.status === 200) {
+                        resolve(JSON.parse(xhr.responseText));
+                    } else if (xhr.status === 404) {
+                        reject(new Error("Resource not found (404)"));
+                    } else if (xhr.status === 403) {
+                        reject(new Error("Access forbidden (403)"));
                     } else {
-                        console.log(`[${p.status}] : ${p.statusText}`);
+                        reject(new Error(`Error ${xhr.status}: ${xhr.statusText}`));
                     }
-                }
-                return reqData;
-            }
-
-        var stationTimeRequester = function () {
-                const p = new XMLHttpRequest();
-                let reqData;
-                p.open("GET", weatherApiLocation);
-                p.send();
-                p.onreadystatechange = function () {
-                    if (p.readyState !== XMLHttpRequest.DONE) {
-                        return;
-                    }
-                    if (p.status === 200) {//정상 수신 완료시
-                        reqData = JSON.parse(p.responseText);
-                    } else if (p.status === 404) {
-                        alert("리소스를 찾을 수 없음 (404)");
-                        console.log("리소스를 찾을 수 없음 (404)");
-                    } else if (p.status === 403) {
-                        alert("접근 거부됨 (403)");
-                        console.log("접근 거부됨 (403)");
-                    } else {
-                        console.log(`[${p.status}] : ${p.statusText}`);
-                    }
-                }
-                return reqData;
-            }
+                };
+                xhr.onerror = () => reject(new Error("Network error"));
+                xhr.send();
+        }*/
 
         /** Data */
 
