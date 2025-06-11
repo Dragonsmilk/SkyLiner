@@ -9,18 +9,37 @@
     <iframe id = "svgFrame" src="stationSVG.svg" width="1280" height="720" frameborder="0">
         Browser Not Support SVG File
     </iframe>
+    <table>
+        <tr>
+            <td>언어선택</td>
+            <td>노선선택</td>
+        </tr>
+        <tr>
+            <td><select name="Language" id="langSelection"></select></td>
+            <td><select name="Line" id="lineSelection"></select></td>
+        </tr>
+    </table>
     <script>
 
         /** UI */
         const mainFrame = document.querySelector("#svgFrame");//iframe Element를 불러옴
+        let lineData;
+        let flangPreSet;
+        let flangCurrentSet;
+
+        
+
         mainFrame.addEventListener("load", ()=>{//iframe 로딩시 내부 SVG에 대해 기능 매핑
             const svgEle = mainFrame.contentDocument;//iframe내 svg 불러옴
             const nodeList = svgEle.querySelectorAll("[id]");//속성에 id 있는 Node를 전부 List화
+            SelBoxMap(flangPreSet);
             //console.log(nodeList);
+            //baseStationNameInital(nodeList, lineData);
             for(let i of nodeList){
                 if(i["id"][0] == "M"){//id 속성값이 M으로 시작하는 Node만 순회
-                    //console.log(i["id"]);
+                    //console.log(i["id"],i);
                     let stationNode = i;
+                    
                     i.addEventListener("mouseover", ()=>{
                         i.firstChild.style.fill = "#C1FC53";
                     });
@@ -31,7 +50,6 @@
                         i.firstChild.style.fill = "#FCFC53";
                         //console.log(i["id"]);
                         /** Click시 event */
-
                     });
                     i.addEventListener("mouseup", () => {
                         i.firstChild.style.fill = "#C1FC53";
@@ -40,6 +58,62 @@
             }
 
         })
+
+        var SelBoxMap = function(list, type = "jp"){
+            let langSel = document.querySelector("#langSelection");
+            let lineSel = document.querySelector("#lineSelection");
+            for (let i of list){//선택된 언어를 json에서 선택, 현재 시스템의 언어로 설정
+                //console.log(i);
+                if(list["langType"] == type){
+                    flangCurrentSet = i;
+                }
+            }
+            for(let i of flangCurrentSet["langSelBox"]){//언어 매핑
+                let newSel = document.createElement("option");
+                newSel.setAttribute("value", i);
+                newSel.appendChild(document.createTextNode(i));
+                newSel.addEventListener("click", langupdate); // 해당 option click시 event 매핑
+                langSel.appendChild(newsel);
+            }
+            for(let i of flangCurrentSet["lineSelBox"]){//역 목록 매핑
+                let newSel = document.createElement("option");
+                newSel.setAttribute("value", i);
+                //newSel.setAttribute("diable", );
+                newSel.appendChild(document.createTextNode(i));
+                newSel.addEventListener("click", lineupdate); // 해당 option click시 event 매핑
+                langSel.appendChild(newsel);
+            }
+        }
+
+        var baseStationNameInital = function(nodeList, lineData){
+            //console.log(nodeList);
+            for (let i of nodeList){
+                if(i["id"][0] == "M"){
+                    let jpFurijana = i.childNodes[4].textContent;
+                    let jpKanzi = i.childNodes[3].textContent;
+                    console.log(enText, jpFurijana, jpKanzi);
+                    
+                    jpFurijana = lineData["stationTitle"]["Hrkt"];
+                    jpKanzi = lineData["stationTitle"]["ja"];
+                }
+            }
+        }
+
+        var flangStationNameMap = function(nodeList, lineData, langType = "jp"){
+            for(let i of nodeList){
+                if(i["id"][0] == "M"){
+                    let Text = i.childNodes[6].textContent;
+                    if(langType == "ko"){
+                        Text = lineData["stationTitle"]["ko"];
+                    } else if (langType == "en" || langType == "jp"){
+                        Text = lineData["stationTitle"]["en"];
+                    } else if (langType == "zh"){
+                        Text = lineData["stationTitle"]["zh-Hans"];
+                    }
+                    
+                }
+            }
+        }
 
         /** APi Request */
 
